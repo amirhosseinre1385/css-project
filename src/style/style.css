@@ -1,0 +1,91 @@
+@font-face{
+	font-family:"farka";
+	src:url("./src/font/Far_KamrnBd.ttf") format("truetype");
+}
+*{
+    direction: rtl;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: "farka" , dana;
+}
+.container{
+    width: 1216px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 56px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 24px;
+}
+h3{
+    align-items: center;
+    gap: 6px;
+}
+.icon1{
+    width: 22px;
+    height: 22px;
+    color:#2E50E8;
+}
+.link{
+    color: #2E50E8;
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    gap: 24px;
+}
+.item1{
+    width: 100%;
+    box-shadow: 0 4px 8px #E6DED1;
+    padding: 20px;
+}
+.img1{
+    width: 100%;
+}
+.link1{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+.offer1{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 20px;
+}
+.offer1-percent{
+    background-color: #1BE7FF;
+    color: #0F47FF;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 2px 4px;
+    border-radius: 2px 4px;
+    display: inline-block;
+}
+.offer1-price{
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #B3C2E8;
+    gap: 8px;
+}
+.price-1{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+.ratting1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ratting-icon{
+    width: 22px;
+    height: 22px;
+    color:#FFCB28;
+}
