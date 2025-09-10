@@ -44,10 +44,11 @@ h3{
     width: 100%;
     box-shadow: 0 4px 8px #E6DED1;
     padding: 20px;
+    border-radius: 10px 10px;
 }
 .img{
     width: 100%;
-    border-radius: 2px 4px;
+    border-radius: 4px;
 }
 .link{
     text-decoration: none;
@@ -66,7 +67,7 @@ h3{
     font-weight: bold;
     font-size: 14px;
     padding: 2px 4px;
-    border-radius: 2px 4px;
+    border-radius: 4px;
     display: inline-block;
 }
 .offer-price{
