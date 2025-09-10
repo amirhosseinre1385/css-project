@@ -36,30 +36,31 @@ h3{
     color: #2E50E8;
     text-decoration: none;
 }
-.main{
+.section{
     display: flex;
     gap: 24px;
 }
-.item1{
+.item{
     width: 100%;
     box-shadow: 0 4px 8px #E6DED1;
     padding: 20px;
 }
-.img1{
+.img{
     width: 100%;
+    border-radius: 2px 4px;
 }
-.link1{
+.link{
     text-decoration: none;
     color: black;
     font-size: 24px;
 }
-.offer1{
+.offer{
     display: flex;
     align-items: center;
     gap: 6px;
     margin-top: 20px;
 }
-.offer1-percent{
+.offer-percent{
     background-color: #1BE7FF;
     color: #0F47FF;
     font-weight: bold;
@@ -68,7 +69,7 @@ h3{
     border-radius: 2px 4px;
     display: inline-block;
 }
-.offer1-price{
+.offer-price{
     font-size: 14px;
     text-decoration: line-through;
     color: #B3C2E8;
@@ -79,7 +80,7 @@ h3{
     text-align: center;
     gap: 10px;
 }
-.ratting1{
+.ratting{
     display: flex;
     justify-content: space-between;
     align-items: center;
